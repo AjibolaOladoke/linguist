@@ -50,7 +50,7 @@
 		"@commitlint/cli": "^19.8.1",
 		"@commitlint/config-conventional": "^19.8.1",
 		"@cspell/eslint-plugin": "^9.2.0",
-		"@eslint/js": "^9.31.0",
+		"@eslint/js": "^10.0.1",
 		"@svgr/webpack": "^8.1.0",
 		"@types/lodash": "^4.17.20",
 		"@types/node": "^24.0.15",
