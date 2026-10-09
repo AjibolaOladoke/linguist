@@ -1,0 +1,16 @@
+# NPM
+.npmrc
+node_modules
+
+# Editors
+.idea
+.vscode
+debug.log
+
+# Temporary files
+/build
+/tmp
+
+# Local files
+.env
+.local

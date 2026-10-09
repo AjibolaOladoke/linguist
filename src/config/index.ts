@@ -1,0 +1,67 @@
+import { isMobileBrowser } from '../lib/browser';
+import { getUserLanguage } from '../lib/language';
+import { AppConfigType } from '../types/runtime';
+import noTranslateSelectors from './no-translate-selectors.txt';
+
+export const DEFAULT_TRANSLATOR = 'AutoTranslator';
+export const DEFAULT_TTS = 'google';
+
+// Init config
+export const defaultConfig: AppConfigType = {
+	translatorModule: DEFAULT_TRANSLATOR,
+	ttsModule: DEFAULT_TTS,
+	language: getUserLanguage(),
+	scheduler: {
+		useCache: true,
+		translateRetryAttemptLimit: 2,
+		isAllowDirectTranslateBadChunks: true,
+		directTranslateLength: null,
+		translatePoolDelay: 300,
+		chunkSizeForInstantTranslate: null,
+	},
+	cache: {
+		ignoreCase: true,
+	},
+	pageTranslator: {
+		excludeSelectors: noTranslateSelectors.split('\n'),
+		translatableAttributes: ['title', 'alt', 'placeholder', 'label', 'aria-label'],
+		// Temporary solution to fix UX due to bug https://github.com/translate-tools/linguist/issues/75
+		lazyTranslate: isMobileBrowser() ? false : true,
+		detectLanguageByContent: true,
+		originalTextPopup: false,
+		enableContextMenu: true,
+		toggleTranslationHotkey: null,
+	},
+	textTranslator: {
+		rememberText: true,
+		spellCheck: true,
+		suggestLanguage: true,
+		suggestLanguageAlways: true,
+	},
+	selectTranslator: {
+		enabled: true,
+		disableWhileTranslatePage: true,
+		mode: 'popupButton',
+		zIndex: 999999,
+		rememberDirection: false,
+		modifiers: [],
+		strictSelection: false,
+		detectedLangFirst: true,
+		timeoutForHideButton: 3000,
+		focusOnTranslateButton: false,
+		showOnceForSelection: isMobileBrowser() ? false : true,
+		showOriginalText: true,
+		isUseAutoForDetectLang: true,
+	},
+	popup: {
+		rememberLastTab: true,
+	},
+	history: {
+		enabled: true,
+	},
+	popupTab: {
+		pageTranslator: {
+			showCounters: true,
+		},
+	},
+};
