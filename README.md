@@ -6,11 +6,11 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 
 ## Images
 
-[![linguist](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![linguist](images/preview.png)](https://github.com/Swift-Tech-Co/linguist)
 
 ## Android
 
-<!-- Text partly copied from https://www.swifttechco.com -->
+<!-- Text partly copied from https://github.com/Swift-Tech-Co/linguist -->
 
 This addon can be used on mobile browsers with Firefox Nightly (Recommended), or with any chromium browser that supports extensions.
 
@@ -20,12 +20,12 @@ To try it on a chromium browser, download the normal extension for Chrome.
 
 # Screenshots
 
-See more info on https://www.swifttechco.com
+See more info on https://github.com/Swift-Tech-Co/linguist
 
-[![](./packages/site/src/features/Landing/screenshots//page-translation.png)](https://www.swifttechco.com)
-[![](./packages/site/src/features/Landing/screenshots//text-translation.png)](https://www.swifttechco.com)
-[![](./packages/site/src/features/Landing/screenshots//selected-text-translation.png)](https://www.swifttechco.com)
-[![](./packages/site/src/features/Landing/screenshots//settings.png)](https://www.swifttechco.com)
+[![](./packages/site/src/features/Landing/screenshots//page-translation.png)](https://github.com/Swift-Tech-Co/linguist)
+[![](./packages/site/src/features/Landing/screenshots//text-translation.png)](https://github.com/Swift-Tech-Co/linguist)
+[![](./packages/site/src/features/Landing/screenshots//selected-text-translation.png)](https://github.com/Swift-Tech-Co/linguist)
+[![](./packages/site/src/features/Landing/screenshots//settings.png)](https://github.com/Swift-Tech-Co/linguist)
 
 # Development
 
@@ -35,7 +35,7 @@ Contribute to Linguist: file issues, suggest features, and submit pull requests.
 
 # Supporters
 
-[![](./assets/jb_beam.svg)](https://www.swifttechco.com)
+[![](./assets/jb_beam.svg)](https://github.com/Swift-Tech-Co/linguist)
 
 ---
 
@@ -51,13 +51,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/linguist
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [github-linguist/linguist](https://github.com/github-linguist/linguist) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
