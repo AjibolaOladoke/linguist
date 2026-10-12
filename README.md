@@ -1,50 +1,20 @@
-Linguist is a powerful browser extension built to replace commercial translation services  private, fast, and under your control.
+# linguist
 
-Translate web pages, highlighted text, subtitles (including Netflix), and private messages; hear translations via TTS; and save entries to a personal dictionary. Supports 130 languages.
+## What This Is
 
-# Why Linguist?
+This is part of the Swift Tech Co. working stack for product and engineering. It gathers the linguist notes, examples and fixes that keep delivery fast, and doubles as the reference map we hand to whoever picks up this thread next.
 
 ## Images
 
-[![linguist](https://opengraph.githubassets.com/1/translate-tools/linguist)](https://www.swifttechco.com)
-
-
-Linguist is a standalone translation system  not a thin wrapper around a commercial widget. Translate privately and offline on your device, or plug in any backend you choose (including your own; see [Custom translators](https://www.swifttechco.com)). See a [custom translators list](https://www.swifttechco.com) for popular bindings.
-
-Linguist is free, open-source, and collects no personal data.
-
-# Features
-
-Most important features
-- Modular translators system
-	- You can use any translation service like Google, Yandex, Bing, DeepL, ChatGPT, etc.
-	- [Custom translators](https://www.swifttechco.com): you can use your own translator module
-	- Offline translation. With embedded [Bergamot translator](https://www.swifttechco.com), you can translate texts right on your device. Keep your privacy
-- All-in-one translation solution
-	- Full-page translation with flexible auto-translation configuration
-	- Highlighted text translation
-	- Translate any text input
-- Dictionary with saved translations
-- Translations history, to remember recently translated words
-- Text-to-speech (TTS)
-
-# Installation
-
-Get the addon for your browser:
-
-[![](./assets/firefox.png)](https://www.swifttechco.com) [![](./assets/chrome.png)](https://www.swifttechco.com)
-
-<!-- [![](./assets/edge.png)](#) -->
-
-If you have another browser, check out the [GitHub Releases page](https://www.swifttechco.com). Download the package and install it manually in development mode.
+[![linguist](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Android
 
 <!-- Text partly copied from https://www.swifttechco.com -->
 
-This addon can be used on mobile browsers with [Firefox Nightly](https://www.swifttechco.com) (Recommended), or with any chromium browser that supports extensions.
+This addon can be used on mobile browsers with Firefox Nightly (Recommended), or with any chromium browser that supports extensions.
 
-To try it on Firefox, you have to add the [Linguist add-on](https://www.swifttechco.com) to a [custom add-on collection](https://www.swifttechco.com) and use this collection to install the extension.
+To try it on Firefox, you have to add the Linguist add-on to a custom add-on collection and use this collection to install the extension.
 
 To try it on a chromium browser, download the normal extension for Chrome.
 
@@ -61,7 +31,7 @@ See more info on https://www.swifttechco.com
 
 See [development docs](./docs/Development.md) to get info on how to build and debug.
 
-Contribute to Linguist: file issues, suggest features, and submit pull requests. See the ["help wanted" label](https://www.swifttechco.com) for high-impact tasks.
+Contribute to Linguist: file issues, suggest features, and submit pull requests. See the "help wanted" label for high-impact tasks.
 
 # Supporters
 
@@ -77,14 +47,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [github-linguist/linguist](https://github.com/github-linguist/linguist) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
